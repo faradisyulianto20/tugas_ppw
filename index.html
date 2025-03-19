@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/8435a26d27.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="header">
+        <img class="header__logo" src="assets/logo.png" alt="Logo">
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#home">Home</a></li>
+                <li class="header__nav-item"><a href="#profile">Profile</a></li>
+                <li class="header__nav-item"><a href="#stories">Stories</a></li>
+                <div class="dropdown">
+                    <li class="header__nav-item-download"><a href="#download">Download</a></li>
+                        <div class="dropdown-content">
+                            <a href="#download" class="dropdown-items">Windows</a>
+                            <a href="#download" class="dropdown-items">MacOS</a>
+                            <a href="#download" class="dropdown-items">Linux</a>
+                        </div>    
+                    </div>
+                <li class="header__nav-item"><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <img class="background-image" alt="">
+
+        <section class="hero" id="home">
+            <h2 class="hero__heading">Solve the Secrets in a Stark, Atmospheric Adventure </h2>
+            <p class="hero__paragraph sec-font">Step into a minimalist world where puzzles uncover dark secrets. Challenge your mind and unravel the mysteries lurking in the shadows.</p>
+            <button class="hero__button">SIGN UP</button>
+        </section>
+
+        <aside class="review">
+            <p class="sec-font">4,5</p>
+            <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+            <p class="sec-font">Steam Reviews</p>
+        </aside>
+
+        <section class="profile" id="profile">
+            <article class="profile__article">
+                <h2 class="profile__article__heading">Who are we?</h2>
+                <p class="sec-font">We are creators of immersive, minimalist games focused on mind-bending puzzles and atmospheric design. Explore, solve, and uncover hidden mysteries.</p>
+            </article>
+            <figure class="profile__video">
+                <a href="https://youtu.be/br_b7JqM7Ps?si=X2LTrLGJzNIzFSOj" target="_blank" rel="noopener">
+                    <img src="./assets/video.png" alt="YouTube Video Thumbnail" />
+                </a>
+                <figcaption>Source: PlayStation</figcaption>
+            </figure>
+        </section>
+
+        <section class="stories" id="stories">
+            <h2 class="stories__heading">6 Different Stories</h2>
+            <div class="stories__container">
+                <article>
+                    <div class="stories__container__heading">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                        <h2>The Forgotten Realm</h2>
+                    </div>
+                    <div class="stories__container__paragraph sec-font">
+                        <p>Solve puzzles to restore lost memories, but the truth gets darker.</p>
+                        <ul>
+                            <li>Solve puzzles to unlock lost past.</li>
+                            <li>Follow clues to reveal hidden truths.</li>
+                            <li>Face the lurking darkness before it takes you.</li>
+                        </ul>
+                    </div> 
+                </article>
+                <article>
+                    <div class="stories__container__heading">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h2>Echoes of The Unknown</h2>
+                    </div>
+                    <div class="stories__container__paragraph sec-font">
+                        <p>A hidden world awaits—choose wisely or be lost forever.</p>
+                        <ul>
+                            <li>Find symbols to enter the hidden world.</li>
+                            <li>Solve eerie messages that alter reality.</li>
+                            <li>Decide your path—truth or oblivion.</li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div class="stories__container__heading">
+                        <i class="fa-solid fa-snowflake"></i>
+                        <h2>Fractured Reflection</h2>
+                    </div>
+                    <div class="stories__container__paragraph sec-font">
+                        <p>Mirrors reveal secrets—solve them before reality shatters.</p>
+                        <ul>
+                            <li>Solve mirror puzzles to reveal your identity.</li>
+                            <li>Restore broken reflections to reshape time</li>
+                            <li>Stop your distorted self from taking over.</li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div class="stories__container__heading">
+                        <i class="fa-solid fa-cloud-bolt"></i>
+                        <h2>Whispers in The Fog</h2>
+                    </div>
+                    <div class="stories__container__paragraph sec-font">
+                        <p>Solve puzzles to escape a foggy town before the shadows find you.</p>
+                        <ul>
+                            <li>Chase voices leading to hidden puzzles.</li>
+                            <li>Solve cryptic riddles to uncover the truth.</li>
+                            <li>Escape before the shadows consume you.</li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div class="stories__container__heading">
+                        <i class="fa-solid fa-eye"></i>
+                        <h2>The Silent Observer</h2>
+                    </div>
+                    <div class="stories__container__paragraph sec-font">
+                        <p>Your dreams change reality—are you in control or being watched?</p>
+                        <ul>
+                            <li>Identify objects altered by dreams.</li>
+                            <li>Use dream clues to shift reality.</li>
+                            <li>Find out who’s controlling you.</li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <div class="stories__container__heading">
+                        <i class="fa-solid fa-khanda"></i>
+                        <h2>Void Walker</h2>
+                    </div>
+                    <div class="stories__container__paragraph sec-font">
+                        <p>Find the right path in a shifting void or disappear forever.</p>
+                        <ul>
+                            <li>Solve perspective puzzles to reveal walkways.</li>
+                            <li>Find missing fragments to fix the void.</li>
+                            <li>Solve the last puzzle before you disappear.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <h2 class="testimonials__heading">Customer Testimonials</h2>
+            <div class="testimonials__container">
+                <article>
+                    <img src="./assets/testi/1.png" alt="">
+                    <h2 class="testimonials__container__heading" >Faradis</h2>
+                    <p class="testimonials__container__paragraph">"Beautifully eerie. The puzzles and mystery kept me hooked!"</p>
+                </article>
+                <article>
+                    <img src="./assets/testi/2.png" alt="">
+                    <h2 class="testimonials__container__heading">Zayyan</h2>
+                    <p class="testimonials__container__paragraph">"Minimalist yet immersive—every puzzle reveals a hidden truth."</p>
+                </article>
+                <article>
+                    <img src="./assets/testi/3.png" alt="">
+                    <h2 class="testimonials__container__heading">Zidan</h2>
+                    <p class="testimonials__container__paragraph">"Feels like a haunting dream you never want to leave."</p>
+                </article>
+                <article>
+                    <img src="./assets/testi/4.png" alt="">
+                    <h2 class="testimonials__container__heading">Arofii</h2>
+                    <p class="testimonials__container__paragraph">"A perfect mix of mystery, challenge, and atmosphere."</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+            <h2 class="faq__heading">Frequently Asked Questions</h2>
+            <div class="faq__container">
+                <article>
+                    <h2 class="faq__container__heading">Q : What kind of game is this?</h2>
+                    <p class="faq__container__paragraph">It’s a minimalist puzzle-adventure with a mysterious, immersive story.</p>
+                </article>
+                <article>
+                    <h2 class="faq__container__heading">Q : How long is the gameplay?</h2>
+                    <p class="faq__container__paragraph">Depends on your puzzle-solving skills—typically 3 to 6 hours.
+                    </p>
+                </article>
+                <article>
+                    <h2 class="faq__container__heading">Q : Is there more than one ending?</h2>
+                    <p class="faq__container__paragraph">Yes! Your choices affect how the story unfolds.</p>
+                </article>
+                <article>
+                    <h2 class="faq__container__heading">Q : Is it a horror game?</h2>
+                    <p class="faq__container__paragraph">Not exactly, but it has eerie and unsettling elements.</p>
+                </article>
+                <article>
+                    <h2 class="faq__container__heading">Q : Is it a horror game?</h2>
+                    <p class="faq__container__paragraph">Currently for PC, with possible console releases in the future.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="download" id="download">
+            <aside>
+                <h2 class="download__heading">Explore, solve, and uncover hidden mysteries.</h2>
+                <p class="download__paragraph">Download and make your journey right now!</p>
+            </aside>
+            <button class="download__button">
+                DOWNLOAD
+            </button>
+        </section>
+        
+    </main>
+    
+    <footer class="footer" id="about">
+        <div class="footer__about">
+            <h2 class="footer__about__heading">About Company</h2>
+            <p class="footer__about__paragraph">We are creators of immersive, minimalist games focused on mind-bending puzzles and atmospheric design</p>
+        </div>
+        <div class="footer__contact">
+            <h2 class="footer__contact__heading">Contact Information</h2>
+            <ul>
+                <li><i class="fa-regular fa-envelope email-icon"></i><a href="" title="email">faradisy20@gmail.com</a></li>
+                <li><i class="fa-brands fa-whatsapp whatsapp-icon"></i><a href="" title="phone number">+(62) 858 7627 0545</a></li>
+                <li><i class="fa-regular fa-map location-icon"></i><a href="" title="location">Jl. Godean Km. 5, Ambarketawang, Gamping, Sleman</a></li>
+            </ul>
+        </div>
+        <div class="footer__legal-pages">
+            <h2 class="footer__legal-pages__heading">Legal Pages</h2>
+            <ul>
+                <li>Terms of use</li>
+                <li>Disclaimer</li>
+                <li>Privacy policy</li>
+                <li>Cookie policy</li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

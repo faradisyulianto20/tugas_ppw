@@ -76,7 +76,6 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    width: 100%;
 }
 
 .sec-font {
@@ -604,8 +603,15 @@ main {
             width: 50vw;
         }
     }
+
+    .header {
+        padding-left: 1rem;
+    }
     
     .profile {
+        .profile__article {
+            width: fit-content;
+        }
         .profile__article__paragraph {
             align-self: center;
             width: 50vw;
@@ -623,6 +629,13 @@ main {
         }
     }
 
+    .testimonials {
+        .testimonials__heading {
+            width: 50vw;
+            text-align: center;
+        }
+    }
+
     .faq {
         .faq__heading {
             width: 50vw;
@@ -632,7 +645,11 @@ main {
         }
     }
 
-    .download aside {
-        width: 50vw;
+    .download {
+        padding: 20em 0;
+        aside {
+            width: 50vw;
+            }
     }
+        
 }

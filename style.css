@@ -548,6 +548,18 @@ main {
 }
 
 @media (max-width: 768px) {
+
+    .hero {
+	background-position: left;
+        .hero__heading {
+            width: 50vw;
+            font-size: 20px;
+        }
+        .hero__paragraph {
+            width: 50vw;
+        }
+    }
+	
     .header {
         .header__nav-list {
             visibility: hidden;
@@ -594,15 +606,6 @@ main {
 }
 
 @media (max-width: 480px) {
-    .hero {
-        .hero__heading {
-            width: 50vw;
-            font-size: 20px;
-        }
-        .hero__paragraph {
-            width: 50vw;
-        }
-    }
 
     .header {
         padding-left: 1rem;

@@ -15,7 +15,7 @@
     <!-- Icon -->
     <script src="https://kit.fontawesome.com/8435a26d27.js" crossorigin="anonymous"></script>
 
-    <!-- Icon Browser -->
+    <!-- Browser -->
     <link rel="icon" href="./assets/logo.png">
 </head>
 <body>
@@ -38,12 +38,10 @@
                 <li class="header__nav-item"><a href="#about">About</a></li>
             </ul>
         </nav>
-        <i class="fa-solid fa-bars header__burger-icon"></i>
+        <i class="fa-solid fa-bars header__burger-icon" id="burger-icon"></i>
     </header>
 
     <main>
-
-        <img class="background-image" alt="">
 
         <section class="hero" id="home">
             <h2 class="hero__heading">Solve the Secrets in a Stark, Atmospheric Adventure </h2>
@@ -224,11 +222,13 @@
                 <h2 class="download__heading">Explore, solve, and uncover hidden mysteries.</h2>
                 <p class="download__paragraph">Download and make your journey right now!</p>
             </aside>
-            <button class="download__button">
-                DOWNLOAD
-            </button>
+            <a href="./assets/testi/2.png" download="image">
+                <button class="download__button">
+                    DOWNLOAD
+                </button>
+            </a>
         </section>
-        
+
     </main>
     
     <footer class="footer" id="about">
@@ -254,6 +254,6 @@
             </ul>
         </div>
     </footer>
-    
+    <script src="./script.js"></script>
 </body>
 </html>

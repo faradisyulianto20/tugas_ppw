@@ -51,15 +51,6 @@ table {
 /* @media (max-width: 768px) {} */
 /* @media (max-width: 480px) {} */
 
-.navbar a { 
-    float: left; 
-    font-size: 16px; 
-    color: white; 
-    text-align: center; 
-    padding: 14px 16px; 
-    text-decoration: none; 
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -174,7 +165,6 @@ body {
         background-color: rgba(240, 240, 240, 0.54);
     }
 
-
 }
 
 main {
@@ -189,12 +179,6 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-
-    .background-image {
-        position: absolute;
-        right: 100px;
-        top: 150px;
     }
 }
 
@@ -548,9 +532,8 @@ main {
 }
 
 @media (max-width: 768px) {
-
     .hero {
-	background-position: left;
+    background-position: left;
         .hero__heading {
             width: 50vw;
             font-size: 20px;
@@ -559,7 +542,7 @@ main {
             width: 50vw;
         }
     }
-	
+
     .header {
         .header__nav-list {
             visibility: hidden;
@@ -581,6 +564,14 @@ main {
             visibility: visible;
             cursor: pointer;
             font-size: 28px;
+        }
+    }
+
+    .profile {
+        .profile__video {
+            img {
+                width: 50vw;
+            }
         }
     }
 
@@ -609,20 +600,32 @@ main {
 
     .header {
         padding-left: 1rem;
+
+        .header__nav-list {
+            position: absolute;
+            left: 0;
+            top: 80px;
+        }
+
+        .dropdown-content {
+            visibility: hidden;
+        }
+
+        .dropdown:not(:hover) .dropdown-content { 
+            display: flex; 
+            flex-direction: column;
+            padding-top: 1.72em;
+        }
     }
     
     .profile {
         .profile__article {
             width: fit-content;
+            margin: 0;
         }
         .profile__article__paragraph {
             align-self: center;
             width: 50vw;
-        }
-        .profile__video {
-            img {
-                width: 50vw;
-            }
         }
     }
 
@@ -653,6 +656,5 @@ main {
         aside {
             width: 50vw;
             }
-    }
-        
+    }   
 }
